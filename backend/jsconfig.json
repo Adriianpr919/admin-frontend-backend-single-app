@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "baseUrl": "http://localhost:5000",
+    "paths": {
+      "backend/*": ["*"]
+    }
+  }
+}

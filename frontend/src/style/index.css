@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Aboreto;
+  src: url(../../public/assets/fonts/Aboreto.ttf);
+}
+/*******************************************************/
+.filter-pagination {
+  margin-top: 50px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.filter-pagination li {
+  padding: 5px;
+  cursor: pointer;
+  border: 1px solid #00000000;
+  border-radius: 25px;
+  transition: all 0.5s;
+}
+
+.filter-pagination li a {
+  margin: 10px 15px;
+}
+
+.filter-pagination li:hover {
+  background-color: #000000;
+}
+
+.filter-pagination li:hover a {
+  color: #ffffff;
+}
+
+.pagi-active {
+  background-color: #000000;
+}
+
+.pagi-active-link {
+  color: #ffffff;
+}
+
+.disabledPagi {
+  cursor: not-allowed !important;
+  background-color: #00000000;
+  color: #000000;
+}
+
+.filter-pagination li:hover.disabledPagi {
+  background-color: #00000000;
+}
+
+.filter-pagination li:hover.disabledPagi a {
+  color: #000000;
+}
