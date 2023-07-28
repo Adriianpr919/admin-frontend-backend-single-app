@@ -1,0 +1,33 @@
+{
+  "lang": "es-CO",
+  "dir": "ltr",
+  "short_name": "NuryValenzuela.",
+  "name": "Nury Valenzuela&#174; Joyer&iacute;a &#45;",
+  "author": "Adrian Paez",
+  "default_title": "Nury Valenzuela&#174; Joyer&iacute;a &#45;",
+  "default_locale": "es-CO",
+  "icons": [
+    {
+      "src": "./assets/images/logonv.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "./assets/images/logonv.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "./assets/images/logonv.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "scope": "/",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#bdb093",
+  "background_color": "#ffffff",
+  "orientation": "any",
+  "description": "Nury Valenzuela&#174; Joyer&iacute;a &#45;"
+}
