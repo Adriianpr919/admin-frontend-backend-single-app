@@ -1,5 +1,5 @@
 import axios from 'axios';
 
 export const productApi = axios.create({
-  baseURL: "/api/products"
+  baseURL: "https://admin-frontend-backend-single-app.onrender.com/api/products"
 });

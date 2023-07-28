@@ -1,5 +1,5 @@
 import axios from 'axios';
 
 export const tripletecategoryApi = axios.create({
-  baseURL: '/api/tripletecategory'
+  baseURL: 'https://admin-frontend-backend-single-app.onrender.com/api/tripletecategory'
 });

@@ -1,5 +1,5 @@
 import axios from 'axios';
 
 export const messageApi = axios.create({
-  baseURL: "/api/messagesopcions"
+  baseURL: "https://admin-frontend-backend-single-app.onrender.com/api/messagesopcions"
 });
