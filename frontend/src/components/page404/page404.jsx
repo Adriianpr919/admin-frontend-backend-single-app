@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import 'flowbite';
 
 const page404 = () => {
@@ -14,11 +15,11 @@ const page404 = () => {
               Lo sentimos, no podemos encontrar esa p&#225;gina.<br /> Encontrar&#225; mucho para explorar<br /> en la p&#225;gina de inicio.
             </span>
           </p>
-          <a href="/" rel="noopener noreferrer" className="inline-flex text-white bg-primary-600 hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-900 my-4">
+          <Link to="/" rel="noopener noreferrer" className="inline-flex text-white bg-primary-600 hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-900 my-4">
             <span className='badge badge-info mb-2 text-black' style={{ fontSize: "15px" }}>
               <i className="fa-solid fa-globe"></i> VOLVER LA P&#193;GINA PRINCIPAL.
             </span>
-          </a>
+          </Link>
         </div>
       </div>
     </section>

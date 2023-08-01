@@ -43,11 +43,11 @@ const BlogDetails = () => {
                                     <FontAwesomeIcon icon={faInfoCircle} />  BLOG DETALLE.
                                 </h1>
                                 <hr className="my-4" />
-                                <a href="/blogs" rel="noopener noreferrer">
+                                <Link to="/blogs" rel="noopener noreferrer">
                                     <code className='badge rounded-pill badge-dark' style={{ fontSize: "15px" }}>
                                         <FontAwesomeIcon icon="fa-solid fa-chevron-left" /> VOLVER.
                                     </code>
-                                </a>
+                                </Link>
                             </div>
                         </div>
                         {/* Page Title Area End */}

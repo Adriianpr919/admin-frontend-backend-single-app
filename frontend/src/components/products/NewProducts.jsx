@@ -39,9 +39,9 @@ const NewProducts = () => {
                   Explore la colecci&#243;n de nuestros productos m&#225;s vendidos y m&#225;s interesantes. Seguro que encuentras lo que buscas.
                 </p>
                 <div className="hb-col" style={{ marginTop: '20px' }}>
-                  <a href="/shop" rel='noopener noreferrer' className='text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2' style={{ fontSize: "20px" }}>
+                  <Link to="/shop" rel='noopener noreferrer' className='text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2' style={{ fontSize: "20px" }}>
                     Ver Productos. <FontAwesomeIcon icon={faEye} />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

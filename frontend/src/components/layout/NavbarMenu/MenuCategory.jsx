@@ -1,7 +1,7 @@
 import React from 'react';
 import { Disclosure } from '@headlessui/react';
 import { MinusIcon, PlusIcon } from '@heroicons/react/20/solid';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 ///////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -24,9 +24,9 @@ const MenuCategory = ({ category, subcategory, tripletecategory }) => {
                   <h3 className="-my-3 flow-root">
                     <Disclosure.Button className="flex w-full items-center justify-between bg-white py-3 text-sm text-gray-400 hover:text-gray-500">
                       <span className="font-medium badge badge-primary text-gray-900" style={{ fontSize: "15px" }}>
-                        <a href={`/shop/${category._id}`} key={index} rel="noopener noreferrer" style={{ fontSize: "15px" }}>
+                        <Link to={`/shop/${category._id}`} key={index} rel="noopener noreferrer" style={{ fontSize: "15px" }}>
                           <code><FontAwesomeIcon icon="fa-solid fa-list-check" /> {category.titlecategory}</code> <code className='hidden'>{id}</code>
-                        </a>
+                        </Link>
                       </span>
                       <span className="ml-6 flex items-center">
                         {open ? (
@@ -47,9 +47,9 @@ const MenuCategory = ({ category, subcategory, tripletecategory }) => {
                       {
                         subcategory.map((subcategory, index) => (
                           <div key={subcategory._id}>
-                            <a href={`/shop/${category._id}`} key={index} rel="noopener noreferrer" style={{ fontSize: "15px" }}>
+                            <Link to={`/shop/${category._id}`} key={index} rel="noopener noreferrer" style={{ fontSize: "15px" }}>
                               <FontAwesomeIcon icon="fa fa-angle-double-right wv_circle" style={{ fontSize: "15px" }} /> {subcategory.titlesubcategory} <code className='hidden'>{id}</code>
-                            </a>
+                            </Link>
                           </div>
                         ))
                       }
@@ -69,9 +69,9 @@ const MenuCategory = ({ category, subcategory, tripletecategory }) => {
                       {
                         tripletecategory.map((tripletecategory, index) => (
                           <div key={tripletecategory._id}>
-                            <a href={`/shop/${category._id}`} key={index} rel="noopener noreferrer" style={{ fontSize: "15px" }}>
+                            <Link to={`/shop/${category._id}`} key={index} rel="noopener noreferrer" style={{ fontSize: "15px" }}>
                               <FontAwesomeIcon icon="fa fa-angle-double-right wv_circle" style={{ fontSize: "15px" }} /> {tripletecategory.titletripletecategory} <code className='hidden'>{id}</code>
-                            </a>
+                            </Link>
                           </div>
                         ))
                       }

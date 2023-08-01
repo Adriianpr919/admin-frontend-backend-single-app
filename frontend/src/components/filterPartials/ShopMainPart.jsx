@@ -218,24 +218,6 @@ const ShopMainPart = () => {
                                 </ul>
 
                                 <hr className="my-4" />
-
-                                <h3 className="font-semibold mb-2">
-                                    <span className="f-groupTitle badge badge-primary text-black" style={{ fontSize: "15px" }}>
-                                        <FontAwesomeIcon icon="fa-solid fa-repeat" /> Acc&#237;on. :*
-                                    </span>
-                                </h3>
-
-                                <ul className="space-y-1">
-                                    <li>
-                                        <label className="flex items-center">
-                                            <a href="/shop" rel="noopener noreferrer" className="f-groupTitle">
-                                                <code className='badge rounded-pill badge-dark f-groupTitle' style={{ fontSize: "15px" }}>
-                                                    <FontAwesomeIcon icon="fa-solid fa-repeat" /> Cargar La P&#225;gina. <span className="fas fa-chevron-right ms-1 fs--2" style={{ fontSize: "15px" }} />
-                                                </code>
-                                            </a>
-                                        </label>
-                                    </li>
-                                </ul>
                             </div>
                         </aside>
                         <main className="md:w-2/3 lg:w-3/4 px-3">

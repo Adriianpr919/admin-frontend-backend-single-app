@@ -88,11 +88,11 @@ const ProductDetails = () => {
                                     <FontAwesomeIcon icon={faBagShopping} />  PRODUCTO DETALLE.
                                 </h1>
                                 <hr className="my-4" />
-                                <a href="/shop" rel="noopener noreferrer">
+                                <Link to="/shop" rel="noopener noreferrer">
                                     <code className='badge rounded-pill badge-dark' style={{ fontSize: "15px" }}>
                                         <FontAwesomeIcon icon="fa-solid fa-chevron-left" /> VOLVER.
                                     </code>
-                                </a>
+                                </Link>
                             </div>
                         </div>
                         {/* Page Title Area End */}
